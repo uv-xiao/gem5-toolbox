@@ -7,7 +7,7 @@ cd ${GEM5_PATH}
 if [ ${SE_OR_FS} == SE ];then
 
 build/${ARCH}/gem5.${METHOD} --outdir=${SE_OUT_DIR_CHECKPOINT} \
-configs/example/se.py \
+configs/deprecated/example/se.py \
 --take-simpoint-checkpoint=\
 ${SE_simpoint_file_path},${SE_weight_file_path},\
 ${interval_length},${warmup_length} \

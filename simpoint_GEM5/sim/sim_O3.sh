@@ -7,7 +7,7 @@ cd ${GEM5_PATH}
 if [ ${SE_OR_FS} == SE ];then 
 
 build/${ARCH}/gem5.${METHOD} --outdir=${SE_OUT_DIR_O3}/$1 \
-configs/example/se.py \
+configs/deprecated/example/se.py \
 ${CPU_PARM} \
 ${CACHE_PRAM} \
 ${MEM_PRAM} \

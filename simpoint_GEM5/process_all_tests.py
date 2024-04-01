@@ -22,7 +22,7 @@ def simpoint(tests):
         #   理论上生成 Simpoint 就可以了，第二行命令可以注释掉
         #   ">" 后面的是将运行的输出重定向的地址，改成自己的即可
         os.system('nohup time bash process/process_sim.sh '+item+' > \
-                /home/data/ChenRuiyang/time_rec/'+item+'_process.txt &')
+                /home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec/'+item+'_process.txt &')
         #os.system('nohup time bash process/process_normal.sh '+item+' > \
             # /home/data/ChenRuiyang/time_rec/'+item+'_normal.txt &')
             
@@ -31,7 +31,7 @@ def reload(tests):
         #   同上，只改了.sh文件的名字，执行重载操作
         #   ">" 后面的是将运行的输出重定向的地址，改成自己的即可
         os.system('nohup time bash process/process_reload.sh '+item+' > \
-            /home/data/ChenRuiyang/time_rec/'+item+'_reload.txt &')
+            /home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec/'+item+'_reload.txt &')
 
 if args.name:
     sim_tests=reload_tests=[args.name]

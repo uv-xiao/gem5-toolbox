@@ -9,7 +9,7 @@ if [ ${SE_OR_FS} == SE ];then
 rm -r m5out/${SE_NAME};
 
 build/${ARCH}/gem5.${METHOD} --outdir=${SE_OUT_DIR_INIT} \
-configs/example/se.py \
+configs/deprecated/example/se.py \
 --simpoint-profile \
 --simpoint-interval ${interval_length} \
 --cpu-type=NonCachingSimpleCPU \

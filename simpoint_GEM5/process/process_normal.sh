@@ -15,7 +15,7 @@ if [ ${SE_OR_FS} == SE ];then
 rm -r ${SE_OUT_DIR_NORMAL};
 
 build/${ARCH}/gem5.${METHOD} --outdir=${SE_OUT_DIR_NORMAL} \
-configs/example/se.py \
+/configs/deprecated/example/se.py \
 ${CPU_PARM} \
 ${CACHE_PRAM} \
 ${MEM_PRAM} \
