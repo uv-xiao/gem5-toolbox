@@ -24,7 +24,7 @@ def simpoint(tests):
         os.system('nohup time bash process/process_sim.sh '+item+' > \
                 /home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec/'+item+'_process.txt &')
         #os.system('nohup time bash process/process_normal.sh '+item+' > \
-            # /home/data/ChenRuiyang/time_rec/'+item+'_normal.txt &')
+            # /home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec/'+item+'_normal.txt &')
             
 def reload(tests):
     for item in tests:

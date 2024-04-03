@@ -4,7 +4,7 @@
 #   第二个对应记录程序运行结果的地址，这个在哪都没关系，改成自己的地址即可
 #   这两个需要改一下
 SH_ROUTE=/home/data/ChenRuiyang/sh_command/simpoint_GEM5/sim
-REC_ROUTE=/home/data/ChenRuiyang/time_rec
+REC_ROUTE=/home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec
 
 #   一般都是用 SE 做的， FS 对 Simpoint 的支持不太好
 SE_OR_FS=SE 

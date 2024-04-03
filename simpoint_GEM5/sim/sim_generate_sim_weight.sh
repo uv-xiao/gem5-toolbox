@@ -7,7 +7,7 @@ cd ${SIMPOINT_PATH}/bin
 if [ ${SE_OR_FS} == SE ];then
 
 rm -r ${SIMPOINT_PATH}/output/gem5/${SE_NAME}
-mkdir ${SIMPOINT_PATH}/output/gem5/${SE_NAME}
+mkdir -p ${SIMPOINT_PATH}/output/gem5/${SE_NAME}
 
 ./simpoint -loadFVFile ${GEM5_PATH}/${SE_OUT_DIR_INIT}/simpoint.bb.gz \
 -maxK 30 -saveSimpoints ${SE_simpoint_file_path} \

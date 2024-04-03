@@ -22,4 +22,4 @@ echo SE_OR_FS should be SE
 fi
 
 # 将完成的结果写到文件里面
-echo ${SE_NAME}_${SE_SUFFIX} has been done! >> /home/data/ChenRuiyang/time_rec/done_tests.txt
+echo ${SE_NAME}_${SE_SUFFIX} has been done! >> /home/uvxiao/repos/sango/gem5/toolbox/simpoint_GEM5/time_rec/done_tests.txt
