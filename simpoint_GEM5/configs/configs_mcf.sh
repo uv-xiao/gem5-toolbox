@@ -61,7 +61,7 @@ OPTIONS=
 
 #   simpoint 安装的地址
 #   做 simpoint 时需要改一下
-SIMPOINT_PATH=/home/uvxiao/repos/SimPoint
+SIMPOINT_PATH=/home/uvxiao/repos/sango/gem5/ext/SimPoint
 
 ##  Simpoint 的两个参数
 ##  这个一般不用改
